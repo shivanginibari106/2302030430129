@@ -1,1 +1,166 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+body{
+    font-family: arial,sans-seriff;
+    line-height: 25px;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1% 1%;
+}
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+/*CSS for Header*/
+.header{
+    background-color: darkblue;
+    color: white;
+}
+
+/*CSS for MEnu*/
+.menu ul{
+    list-style-type: none;
+}
+.menu ul a{
+    color: darkblue;
+    text-decoration: none;
+    padding: 1%;
+}
+.menu ul a:hover{
+    background-color: darkblue;
+    color: white;
+}
+.menu ul a li{
+    display: inline;
+}
+
+
+
+/*CSS for Main Body*/
+.main{
+    margin: 1% 0;
+}
+.main h2{
+    color: 6F3131;
+}
+.beans{
+    width: 22.5%;
+    border: 1px solid grey;
+    margin: 1%;
+    float: left;
+    text-align: center;
+}
+.beans:hover{
+    box-shadow: 0 0 3px 3px silver;
+}
+.coffee1 .png{
+    width: 100%;
+}
+.beans .beans-title{
+    font-weight: bold;
+    color: A27620;
+    padding: 1%;
+}
+.beans.origin{
+    font-size: 120%;
+    color: black;
+    padding: 1%;
+}
+.beans-added,.beans.flavor{
+    font-weight: lighter;
+    font-size: 90%;
+    color: black;
+    padding: 1%;
+}
+.beans .btn-book-now{
+    padding: 3%;
+    margin: 3%;
+    background-color: 8B0000;
+    color: white;
+    border: none;
+}
+.beans .btn-book-now:hover{
+    background-color: 8B0000;
+}
+.coffee2 .png img{
+    width: 50%;
+    float: left;
+    margin: 2% 2% 2% 0;
+}
+.book -now h3{
+    text-align: center;
+    margin-bottom: 2%;
+    text-decoration: underline;
+}
+.book-now  p{
+    text-align: justify;
+    padding: 1%;
+    line-height: 30px;
+    color: #394d6d;
+}
+.beans-register{
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid 3B2803;
+    padding: 2%;
+    margin: 2% auto;
+}
+.beans-register h3{
+    margin-bottom: 2%;
+}
+.beans.login.name{
+    width: 20%;
+    float: left;
+}
+.beans.login input[type='text'],.main .booking-details input[type='email'],
+.beans.login-details input[type='tel'],.main .booking-details input[type='password'],
+.beans.login-details textarea{
+    padding: 1%;
+    margin: 0.5%;
+    width: 75%;
+}
+.beans.login-details input[type='submit']
+{
+    padding: 2%;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    margin-left: 21%;
+}
+.beans.login-details input[type='submit']:hover{
+    box-shadow: 0 0 3px 2px grey;
+}
+.beans .reset-details input[type='reset']:hover{
+    box-shadow: 0 0 3px 2px grey;
+}
+.beans .reset-details input[type='reset']
+{
+    padding: 2%;
+    background-color: darkred;
+    color: white;
+    border: none;
+}
+
+/*CSS for Footer*/
+.footer{
+    background-color: 3B2803;
+    color: white;
+}
+.footer p{
+    text-align: center;
+}
+.footer p a{
+    color: 3B2803;
+}
+.footer p a:hover{
+    text-decoration: none;
+}
 
