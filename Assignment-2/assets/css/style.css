@@ -21,8 +21,8 @@ body{
 }
 /*CSS for Header*/
 .header{
-    background-color: darkblue;
-    color: white;
+    background-color: 3B2803;
+    color: 8B3200;
 }
 
 /*CSS for MEnu*/
@@ -30,13 +30,13 @@ body{
     list-style-type: none;
 }
 .menu ul a{
-    color: darkblue;
+    color: 3B2803;
     text-decoration: none;
     padding: 1%;
 }
 .menu ul a:hover{
-    background-color: darkblue;
-    color: white;
+    background-color: 3B2803;
+    color: 8B3200;
 }
 .menu ul a li{
     display: inline;
