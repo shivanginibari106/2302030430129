@@ -61,7 +61,7 @@ body{
 .beans:hover{
     box-shadow: 0 0 3px 3px silver;
 }
-.coffee1 .png{
+.coffeelogo.png{
     width: 100%;
 }
 .beans .beans-title{
@@ -106,28 +106,28 @@ body{
     line-height: 30px;
     color: #394d6d;
 }
-.beans-register{
+.main .beans-details{
     width: 50%;
     margin: 0 auto;
     border: 2px solid 3B2803;
     padding: 2%;
     margin: 2% auto;
 }
-.beans-register h3{
+.main .beans-register h3{
     margin-bottom: 2%;
 }
-.beans.login.name{
+.main .beans.login.name{
     width: 20%;
     float: left;
 }
-.beans.login input[type='text'],.main .booking-details input[type='email'],
-.beans.login-details input[type='tel'],.main .booking-details input[type='password'],
-.beans.login-details textarea{
+.main .login input[type='text'],.main .booking-details input[type='email'],
+.main .login-details input[type='tel'],.main .booking-details input[type='password'],
+.main .login-details textarea{
     padding: 1%;
     margin: 0.5%;
     width: 75%;
 }
-.beans.login-details input[type='submit']
+.main .login-details input[type='submit']
 {
     padding: 2%;
     background-color: darkblue;
@@ -135,13 +135,13 @@ body{
     border: none;
     margin-left: 21%;
 }
-.beans.login-details input[type='submit']:hover{
+.main .login-details input[type='submit']:hover{
     box-shadow: 0 0 3px 2px grey;
 }
-.beans .reset-details input[type='reset']:hover{
+.main .reset-details input[type='reset']:hover{
     box-shadow: 0 0 3px 2px grey;
 }
-.beans .reset-details input[type='reset']
+.main  .reset-details input[type='reset']
 {
     padding: 2%;
     background-color: darkred;
